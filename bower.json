@@ -1,0 +1,34 @@
+{
+  "name": "javascript-gulpjs",
+  "description": "Pluralsight JavaScript Build Automation With Gulp.js",
+  "main": "index.js",
+  "authors": [
+    "Carolina Serrão"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ccsCarolSerrao/JavaScript-Gulpjs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "sinon": "^2.3.4",
+    "angular-mocks": "^1.6.4",
+    "bardjs": "^0.1.8"
+  },
+  "dependencies": {
+    "angular-animate": "^1.6.4",
+    "extras.angular.plus": "^0.9.3",
+    "angular": "^1.6.4",
+    "angular-sanitize": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "toastr": "^2.1.2",
+    "angular-ui-router": "^1.0.4"
+  }
+}

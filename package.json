@@ -1,0 +1,60 @@
+{
+  "name": "javascript-gulpjs",
+  "version": "1.0.0",
+  "description": "Pluralsight JavaScript Build Automation With Gulp.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "npm install",
+    "install": "bower install",
+    "start": "node src/server/app.js",
+    "build": "gulp fonts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccsCarolSerrao/JavaScript-Gulpjs.git"
+  },
+  "author": "Carolina Serrão",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccsCarolSerrao/JavaScript-Gulpjs/issues"
+  },
+  "homepage": "https://github.com/ccsCarolSerrao/JavaScript-Gulpjs#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-csso": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-print": "^2.0.1",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "gulp-util": "^3.0.8",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "wiredep": "^4.0.0",
+    "yargs": "^8.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.8.2",
+    "compression": "^1.1.0",
+    "cors": "^2.2.0",
+    "express": "^4.9.3",
+    "morgan": "^1.1.1",
+    "serve-favicon": "^2.0.1"
+  }
+}
